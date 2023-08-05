@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid{
+            display: grid;
+            background-color: grey;
+            grid-template-columns: auto auto auto;
+            padding: 10px;
+        }
+        .griditem{
+            background-color: black;
+            border: 3px solid whitesmoke;
+            padding: 30px;
+
+
+        }
+        nav ul li{
+           font: size 50px; 
+            display: inline;
+            padding: 40px;
+            top: 50px;
+        }
+    body{
+        background-color:aquamarine;
+        text-align: center;
+    }    
+    nav ul li a{
+    text-decoration: none;
+    color:blue;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    left: 30px;
+    }
+ h1{
+    background-color: coral;
+    border-radius: 20px;
+ }
+ .box-container{
+    display: flex;
+    border: 2px solid #2222;
+ }
+ .box-container img{
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+ }
+ .box-container{
+    width: 90%;
+    padding: 20px;
+    margin: 100px auto;
+    flex-direction: row;
+    justify-content: center;
+ }
+ .box {
+    width: 250px;
+    margin: 0 10px;
+    box-shadow: 0 0 20px 2px rgba(red, green, blue, alpha);
+    transition: 1s;
+ }
+ .box:hover{
+     transform: scale(1.3);
+     z-index: 2;
+
+ }
+ .a{
+    box-shadow: inset;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    transition: 1s;
+ }
+ .a:hover{
+    transform: scale(1.3);
+    z-index: 2;
+ }
+ ul{
+    font:message-box;
+ }
+ .table{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><img src="p1.jpg" width="75px" height="75px"></li>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#menu">menu</a></li>
+            <li><a href="#products">products</a></li>
+            <li><a href="#reviews">reviews</a></li>
+            <li><a href="contact">contact</a></li>
+
+        </ul>
+    </nav></header> 
+    <img src="p2.png"width="1450px" height="600px">
+    <div>
+        <section><h1>ABOUT US</h1>
+        <div class="row">
+        <div class="image">
+        <img src="p3.jpeg"width="500px" height="300px">
+        </div>
+        </div>
+        <h2>WHY WE CHOOSE FOR PURPLE APP?</h2>
+        <p>They have specific offers on top brands, which means you get to buy expensive international brands 
+            at a very nominal rate. Is this what we all want? Also, they provide many offers<br> on their beauty 
+            serves you need to do is book you Shop with GrabOn....Purplle also gives exclusive discount <br>coupons
+             and offers to their customers to make sure they get the best beauty product or service at a much 
+             cheaper rate. You can find the latest Purplle coupons on our website. So shop now.HURRY UP</p>
+        </section>
+    </div>
+    <section><h1>STAR MENU</h1>
+        
+            <div class="box-container">
+                <div class="box">
+                    <img src="p4.jpeg"width="150px"height="150px" alt="">
+                    <h3>HAIR PRODUCTS</h3>
+                    <div class="price">Rs.350</div>
+                    <a href="" class="button">add to cart</a>
+                </div>
+                <div class="box">
+                    <img src="p5.jpg" width="150px"height="150px"alt="">
+                    <h3>BEAUTY FACE CREAMS</h3>
+                    <div class="price">Rs.550</div>
+                    <a href="" class="botton">add to cart</a>
+                </div>
+                <div class="box">
+                    <img src="p6.jpeg"width="150px" height="150px" alt="">
+                    <h3>HAIR DRESSING</h3>
+                    <div class="price">Rs.1300</div>
+                    <a href="" class="button">add to cart</a>
+                </div>
+                <div class="box">
+                    <img src="p7.jpg"width="150px"height="150px"alt="">
+                    <h3>KOREAN PRODUCTS</h3>
+                    <div class="price">Rs.700</div>
+                    <a href="" class="button">add to cart</a>
+                </div>
+                <div class="box">
+                    <img src="p8.jpeg"width="150px"height="150px"alt="">
+                    <h3>LIPSTICS</h3>
+                    <div class="price">Rs.700</div>
+                    <a href="" class="button">add to cart</a>
+                </div>
+                <div class="box">
+                    <img src="p9.jpg"width="150px"height="150px"alt="">
+                    <h3>KAJAL</h3>
+                    <div class="price">Rs.700 <span>1050</span></div>
+                    <a href="" class="button">add to cart</a>
+                </div>
+            </div>
+        </section>
+        <section><h1>OUR PRODUCTS</h1></section>
+        <div class="box-container">
+            <div class="box">
+                <img src="p11.jpg" width="150px"height="150px"alt="">
+                <h3>BEAUTY HAIR PRODUCTS</h3>
+                <div class="price">Rs.2000</div>
+                <a href="" class="botton">add to cart</a>
+            </div>
+            <div class="box">
+                <img src="p12.jpg" width="150px"height="150px"alt="">
+                <h3>MAKEUP PRODUCTS</h3>
+                <div class="price">Rs.5500</div>
+                <a href="" class="botton">add to cart</a>
+            </div>
+            <div class="box">
+                <img src="p13.jpg" width="150px"height="150px"alt="">
+                <h3>EYE LASHES PRODUCTS</h3>
+                <div class="price">Rs.3000</div>
+                <a href="" class="botton">add to cart</a>
+            </div>
+            </div>
+            <section><h1>CUSTOMER REVIEWS</h1></section>
+            <div class ="a">
+                <div class="b">
+                    <img src="p14.jpg" width="150px"height="150px"alt=""text-align:center>
+                    <h3>nice</h3>
+                    </div>
+                    <div class="b">
+                    <img src="p15.jpg" width="150px"height="150px"alt="">
+                    <h3>exccellent</h3>
+                    </div>
+                    <div class="b">
+                    <img src="p16.jpg" width="150px"height="150px"alt="">
+                    <h3>super</h3>
+                    </div>
+                    </div>
+                    <section><h1>contact us</h1></section>
+                    <div class="d">
+                        <table><tr><td>name :</td><td><input type="text"></td></tr>
+                        <tr><td>email :</td><td><input type="email"></td></tr>
+                        <tr><td>contact :</td><td><input type="phone number"></td></tr>
+                        <tr><td><td><input type="submit" value ="contact now"></td></tr>
+                        
+                    </table>
+                    </div>
+                    <section class="footer">
+                        <div class="share">
+                            
+                            <a href="https://www.instagram.com/purpleappstoree"target="_blank" class="fab fa-instagram"><img src="p18.png"width="40px"height="40px"></a>
+                            <a href="https://in.linkedin.com/company/purplle-com"target="_blank"  class="fab fa-linkedin"><img src="p19.png"width="40px"height="40px"></a>
+                        </div>
+                    </section>
+                    </body>
+                    </html>
+            
+
+            
+        
+
